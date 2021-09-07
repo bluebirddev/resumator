@@ -1,5 +1,9 @@
 # Resumator
 
+### To hopefully, easily, generate a uniform resume
+
+---
+
 To install:
 ```
 yarn
