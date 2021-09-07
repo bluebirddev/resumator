@@ -21,11 +21,11 @@ function App() {
           <div><span className="emoji">⚲</span> {person.info.location}</div>
         </div>
 
+        <h3>Summary</h3>
+        <p>{person.summary}</p>
+        
         <div className="split">
           <div>
-            <h3>Summary</h3>
-            <p>{person.summary}</p>
-
             <h3>Work Experience</h3>
             {person.workExperience.map((we, i) => (
               <div key={i}>
