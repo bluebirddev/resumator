@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+html, body, #root, .App {
+    width: 100%;
+    height: 100%;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background-color: #d1d1d1
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.emoji {
+    font-family: Segoe UI Emoji, Segoe UI Symbol,
+      Symbola, Quivira;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.background-picture {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.info {
+    display: flex;
+    margin-top: 14px;
+}
+.info > div {
+    margin-right: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.group {
+    display: flex;
+    flex-wrap: wrap;
+}
+.group > div {
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+}
+h2 {
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 16px;
+    color: rgb(26, 115, 232);
+}
+h3 {
+    text-transform: uppercase;
+    color: #666;
+    margin: 26px 0 10px;
+}
+
+.split {
+    display: flex;
+}
+.split > div:first-child {
+    width: 55%;
+    margin-right: 15px;
+}
+.split > div:nth-child(2) {
+    margin-left: 15px;
+    flex: 1;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dates {
+    color: #666;
+}
+
+.dot {
+    background: rgb(26, 115, 232);
+    min-height: 4px;
+    min-width: 4px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+ul {
+    margin: 8px 0 20px;
+}
+li {
+    display: flex;
+    align-items: flex-start;
+    margin: 4px 0;
+}
+
+.highlight {
+    color: rgb(26, 115, 232);
+}
+
+.education h4 {
+    margin-bottom: 12px;
+}
+.education > div {
+    margin-bottom: 20px;
+}
+
+.pdf {
+    padding: 50px 36px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 1130px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+}
+
+.life-experiences li {
+    margin: 4px 0 10px;
 }
