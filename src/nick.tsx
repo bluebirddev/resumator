@@ -14,7 +14,7 @@ const nick: Person = {
     `,
     workExperience: [
         {
-            title: 'Founder, Developer',
+            title: 'Co-Founder, Developer',
             company: 'Bluebird Development',
             bulletPoints: [
                 <>Co-founded a small company of remote developers with the mission of becoming the most sought-after tech company to work for.  <em>(bluebird.dev)</em></>,
