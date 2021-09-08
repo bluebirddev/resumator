@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import picture from './picture';
 
-import person from './cj';
+import person from './rikus';
 
 function App() {
   return (
@@ -20,35 +20,20 @@ function App() {
           <div><span className="emoji">🌐</span> {person.info.linkedin}</div>
           <div><span className="emoji">⚲</span> {person.info.location}</div>
         </div>
-
-        <h3>Summary</h3>
-        <p>{person.summary}</p>
         
         <div className="split">
           <div>
-            <h3>Work Experience</h3>
-            {person.workExperience.map((we, i) => (
-              <div key={i}>
-                <h4>{we.title}</h4>
-                <div className="align">
-                  <div className="highlight">{we.company}</div>
-                  <div className="dates">{we.dates}</div>
-                </div>
-                <ul>
-                  {we.bulletPoints.map((bp, j) => <li key={j}><div className="dot" /><div>{bp}</div></li>)}
-                </ul>
-              </div>
-            ))}
-          </div>
-          <div>
+            <h3>Summary</h3>
+            <p className="content">{person.summary}</p>
+
             <h3>Skills</h3>
-            <div className="group">{person.skills.map(s => <div key={s}>{s}</div>)}</div>
+            <div className="group content">{person.skills.map(s => <div key={s}>{s}</div>)}</div>
 
             <h3>Technologies</h3>
-            <div className="group">{person.technologies.map(s => <div key={s}>{s}</div>)}</div>
+            <div className="group content">{person.technologies.map(s => <div key={s}>{s}</div>)}</div>
 
             <h3>Education</h3>
-            <div className="education">
+            <div className="education content">
               {person.education.map((e, i) => (
                 <div key={i}>
                   <h4>{e.name}</h4>
@@ -71,6 +56,23 @@ function App() {
                   <li key={i}><div className="dot" /><div>{le}</div></li>
               ))}
             </ul>
+          </div>
+      
+      
+          <div>
+            <h3>Work Experience</h3>
+            {person.workExperience.map((we, i) => (
+              <div key={i}>
+                <h4>{we.title}</h4>
+                <div className="align">
+                  <div className="highlight">{we.company}</div>
+                  <div className="dates">{we.dates}</div>
+                </div>
+                <ul>
+                  {we.bulletPoints.map((bp, j) => <li key={j}><div className="dot" /><div>{bp}</div></li>)}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </div>

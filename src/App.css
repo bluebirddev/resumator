@@ -39,6 +39,14 @@ body {
     margin-bottom: 12px;
 }
 
+.content {
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.content.group {
+    margin-bottom: 8px;
+}
+
 h1 {
     font-weight: 400;
     font-size: 40px;
@@ -52,19 +60,20 @@ h2 {
 h3 {
     text-transform: uppercase;
     color: #666;
-    margin: 26px 0 10px;
+    margin: 16px 0 10px;
 }
 
 .split {
     display: flex;
 }
 .split > div:first-child {
-    width: 55%;
-    margin-right: 15px;
+    width: 40%;
+    padding-right: 15px;
 }
 .split > div:nth-child(2) {
-    margin-left: 15px;
+    padding-left: 15px;
     flex: 1;
+    border-left: 1px solid #f6f6f6;
 }
 
 .align {
@@ -74,6 +83,7 @@ h3 {
 }
 .dates {
     color: #666;
+    white-space: nowrap;
 }
 
 .dot {
@@ -104,7 +114,7 @@ li {
 }
 
 .education h4 {
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 .education > div {
     margin-bottom: 20px;

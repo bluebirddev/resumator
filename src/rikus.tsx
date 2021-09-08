@@ -108,7 +108,7 @@ const rikus: Person = {
             degrees: [
                 {
                     name: 'Electric & Electronic Engineering (Incomplete)',
-                    dates: '2007-2009',
+                    dates: '2007 - 2009',
                 },
             ]
         }
