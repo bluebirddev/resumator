@@ -7,18 +7,22 @@ const rikus: Person = {
     info: {
         phone: '+27 84 824 8384',
         email: 'rikus@bluebird.dev',
-        linkedin: 'linkedin.com/in/rikus-louw-01b71461',
+        linkedin: 'linkedin.com/in/rikuswlouw',
         location: 'Cape Town, South Africa',
     },
-    summary: ``,
+    summary: `I'm a friendly, enthusiastic and motivated fullstack developer with more than several years of experience. I have a huge passion for software engineering and have worked on many different projects from small startups to enterprise level applications in the worlds of finance, health and social media.`,
     workExperience: [
         {
             title: 'Co-Founder, Developer',
             company: 'Bluebird Development',
             bulletPoints: [
-                <>Co-founded a small company of remote developers with the mission of becoming the most sought-after tech company to work for.  <em>(bluebird.dev)</em></>,
-                <>Built and maintained a logistics system for Raubex – South Africa's biggest construction company.</>,
-                <>Developed banking systems (which processes 3m+ monthly financial mandates for insurance companies) and websites for the Fintec Group and its subsidiaries <em>(fintec.group, opticollect.com, bank.tech)</em>.</>
+                <>Co-founded a small company of remote developers <em>(bluebird.dev)</em></>,
+                <>Developed a modern material management system for Raubex – South Africa's biggest construction company.</>,
+                <>Integrated three leading banks' direct debit solutions into an enterprise system <em>(fintec.group, opticollect.com, bank.tech)</em>.</>,
+                <>Built a Magic: The Gathering deck building application called MTG Spellbook for Android <em></em>.</>,
+                <>Modernization and development on a web project for a leading cryptocurrency company <em>(coindirect.com)</em>.</>,
+                <>Developed a Covid tracking app (iOS and Android) for use in multiple European countries <em>(delta.io)</em>.</>,
+                <>Architected and build a debit order system with integrations to two leading South African banks <em>(revio.com)</em>.</>
             ],
             dates: 'Jul 2019 - present'
         },
