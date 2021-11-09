@@ -12,7 +12,7 @@ const fs = require('fs');
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('http://localhost:3000/');
+  await page.goto('http://localhost:3005/');
   await page.emulateMediaType('screen');
   const puppeteerPdf = await page.pdf({
     path: './react.pdf', // path (relative to CWD) to save the PDF to.

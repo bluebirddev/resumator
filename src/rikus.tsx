@@ -16,13 +16,13 @@ const rikus: Person = {
             title: 'Co-Founder, Developer',
             company: 'Bluebird Development',
             bulletPoints: [
-                <>Co-founded a small company of remote developers <em>(bluebird.dev)</em></>,
+                <>Co-founded a small company of remote developers <a href="https://bluebird.dev">(bluebird.dev)</a></>,
                 <>Developed a modern material management system for Raubex – South Africa's biggest construction company.</>,
-                <>Integrated three leading banks' direct debit solutions into an enterprise system <em>(fintec.group, opticollect.com, bank.tech)</em>.</>,
-                <>Built a Magic: The Gathering deck building application called MTG Spellbook for Android <em></em>.</>,
-                <>Modernization and development on a web project for a leading cryptocurrency company <em>(coindirect.com)</em>.</>,
-                <>Developed a Covid tracking app (iOS and Android) for use in multiple European countries <em>(delta.io)</em>.</>,
-                <>Architected and build a debit order system with integrations to two leading South African banks <em>(revio.com)</em>.</>
+                <>Integrated three leading banks' direct debit solutions into an enterprise system <a href="https://bank.tech">(bank.tech)</a>.</>,
+                <>Built a Magic: The Gathering deck building application called MTG Spellbook for Android.</>,
+                <>Modernization and development on a web project for a leading cryptocurrency company <a href="https://coindirect.com">(coindirect.com)</a>.</>,
+                <>Developed a Covid tracking app (iOS and Android) for use in multiple European countries <a href="https://delta.io">(delta.io)</a>.</>,
+                <>Architected and build a debit order system with integrations to two leading South African banks <a href="https://revio.com">(revio.com)</a>.</>
             ],
             dates: 'Jul 2019 - present'
         },

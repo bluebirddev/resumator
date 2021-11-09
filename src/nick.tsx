@@ -17,20 +17,21 @@ const nick: Person = {
       title: 'Co-Founder, Developer',
       company: 'Bluebird Development',
       bulletPoints: [
+        <>Co-founded a small company of remote developers <a href="https://bluebird.dev">(bluebird.dev)</a></>,
         <>
           Built a privacy focused contact-tracing application endorsed by the
           CSIR - a South African government backed medical research institution
-          to help the detection and ultimately reduce the spread of COVID-19.
-          <em>(coviid.me)</em>
+          to help the detection and ultimately reduce the spread of COVID-19.&nbsp;
+          <a href="https://coviid.me">(coviid.me)</a>
         </>,
         <>
           Pushed features into THORChain's Asgardex client - one of the largest
           cryptocurrency DEFI projects with over $100 million staked on the
-          network. <em>(thorchain.org)</em>
+          network. <a href="https://thorchain.org">(thorchain.org)</a>
         </>,
         <>
         Developed a system for improving your carbon footprint and daily
-        lifestyle with a highly customizable and dynamic quiz engine. <em>(aurorasustainability.com)</em>
+        lifestyle with a highly customizable and dynamic quiz engine. <a href="https://aurorasustainability.com">(aurorasustainability.com)</a>
       </>,
       ],
       dates: 'Jan 2019 - present',

@@ -17,7 +17,7 @@ function App() {
         <div className="info">
           <div><span className="emoji">☎</span> {person.info.phone}</div>
           <div><span className="emoji">✉</span> {person.info.email}</div>
-          <div><span className="emoji">🌐</span> {person.info.linkedin}</div>
+          <div><span className="emoji">🌐</span> <a href={`https://${person.info.linkedin}`}>{person.info.linkedin}</a></div>
           <div><span className="emoji">⚲</span> {person.info.location}</div>
         </div>
         
