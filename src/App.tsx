@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
+import { Person } from './person';
 import picture from './picture';
 
-import person from './rikus';
+const person = require('./people/__current').default as Person;
 
 function App() {
   return (

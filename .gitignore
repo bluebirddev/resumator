@@ -24,3 +24,4 @@ yarn-error.log*
 
 # pdfs
 *.pdf
+src/people/__current.tsx

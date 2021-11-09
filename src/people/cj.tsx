@@ -1,4 +1,4 @@
-import { Person } from "./person";
+import { Person } from "../person";
 import React from 'react';
 
 const cj: Person = {
