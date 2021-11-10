@@ -13,7 +13,7 @@ Add a user to the `src/people` directory, like so: `{username}.tsx`.
 
 To see how the resume will look, run:
 ```
-yarn start {username}
+yarn start --person={username}
 ```
 
 To generate the resume pdf, run this while the previous operation is running:
