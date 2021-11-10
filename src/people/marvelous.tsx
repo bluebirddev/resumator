@@ -91,9 +91,10 @@ const Marvelous: Person = {
     },
   ],
   lifeExperiences: [
-    'Member of DevAccent group, Rivers state University chapter.',
-    'Represented High school in Annual Cowbel Mathematics competition.',
-    'Performed spoken words in NYSC camp.',
+    'I enjoy playing Fifa',
+    'I enjoy listening to Passenger and Asa`',
+    'I enjoy writing and performing poetry',
+    'I enjoy playing football'
   ],
 };
 
