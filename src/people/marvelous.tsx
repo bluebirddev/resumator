@@ -91,10 +91,11 @@ const Marvelous: Person = {
     },
   ],
   lifeExperiences: [
-    'I enjoy playing Fifa',
-    'I enjoy listening to Passenger and Asa`',
-    'I enjoy writing and performing poetry',
-    'I enjoy playing football'
+    'Member of DevAccent group, Rivers state University chapter.',
+    'Represented High school in Annual Cowbel Mathematics competition.',
+    'Performed spoken words in NYSC camp.',
+    'I love Fifa and playing football.',
+    'I enjoy writing and performing poetry.',
   ],
 };
 
