@@ -5,7 +5,7 @@ const cj: Person = {
   name: 'C.J. Visser',
   titles: ['Software Developer', 'Manager', 'Entrepreneur'],
   info: {
-    phone: '+27 73 978 7541',
+    phone: '+995 595 086 017',
     email: 'cj@bluebird.dev',
     linkedin: 'linkedin.com/in/cjvisser',
     location: 'Cape Town, South Africa',

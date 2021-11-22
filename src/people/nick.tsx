@@ -15,24 +15,22 @@ const nick: Person = {
   workExperience: [
     {
       title: 'Co-Founder, Developer',
-      company: 'Bluebird Development',
+      company: 'Rektech',
       bulletPoints: [
-        <>Co-founded a small company of remote developers <a href="https://bluebird.dev">(bluebird.dev)</a></>,
+        <>Co-founded a small company of remote developers</>,
         <>
-          Built a privacy focused contact-tracing application endorsed by the
-          CSIR - a South African government backed medical research institution
-          to help the detection and ultimately reduce the spread of COVID-19.&nbsp;
+          Built a privacy focused contact-tracing application endorsed by the CSIR - a South African government backed
+          medical research institution to help the detection and ultimately reduce the spread of COVID-19.&nbsp;
           <a href="https://coviid.me">(coviid.me)</a>
         </>,
         <>
-          Pushed features into THORChain's Asgardex client - one of the largest
-          cryptocurrency DEFI projects with over $100 million staked on the
-          network. <a href="https://thorchain.org">(thorchain.org)</a>
+          Pushed features into THORChain's Asgardex client - one of the largest cryptocurrency DEFI projects with over
+          $100 million staked on the network. <a href="https://thorchain.org">(thorchain.org)</a>
         </>,
         <>
-        Developed a system for improving your carbon footprint and daily
-        lifestyle with a highly customizable and dynamic quiz engine. <a href="https://aurorasustainability.com">(aurorasustainability.com)</a>
-      </>,
+          Developed a system for improving your carbon footprint and daily lifestyle with a highly customizable and
+          dynamic quiz engine. <a href="https://aurorasustainability.com">(aurorasustainability.com)</a>
+        </>,
       ],
       dates: 'Jan 2019 - present',
     },
@@ -76,25 +74,8 @@ const nick: Person = {
       dates: 'June 2013 - Dec 2014',
     },
   ],
-  skills: [
-    'Mobile Development',
-    'Web Development',
-    'Database Design',
-    'Microservices',
-    'System Architecture',
-  ],
-  technologies: [
-    'Javascript',
-    'Typescript',
-    'React',
-    'React Native',
-    'Node.js',
-    '.NET',
-    'C#',
-    'SQL',
-    'UWP',
-    'XAML',
-  ],
+  skills: ['Mobile Development', 'Web Development', 'Database Design', 'Microservices', 'System Architecture'],
+  technologies: ['Javascript', 'Typescript', 'React', 'React Native', 'Node.js', '.NET', 'C#', 'SQL', 'UWP', 'XAML'],
   education: [
     {
       name: 'Udacity',
