@@ -5,6 +5,8 @@ import picture from './picture';
 
 const person = require('./people/__current').default as Person;
 
+const DEFAULT_LEFT_WIDTH = 45;
+
 function App() {
   return (
     <div className="App">
@@ -31,7 +33,7 @@ function App() {
         </div>
 
         <div className="split">
-          <div>
+          <div style={{ width: `${person.leftWidth || DEFAULT_LEFT_WIDTH}%` }}>
             <h3>Summary</h3>
             <p className="content">{person.summary}</p>
 

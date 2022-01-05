@@ -9,6 +9,7 @@ export type Person = {
     linkedin: string;
     location: string;
   };
+  leftWidth?: number; // width % of left column
   summary: string;
   workExperience: {
     title: string;
