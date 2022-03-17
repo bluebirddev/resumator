@@ -6,7 +6,7 @@ const Estian: Person = {
   info: {
     phone: '+27 84 628 5447',
     email: 'estian@bluebird.dev',
-    linkedin: 'https://www.linkedin.com/in/estian-diedericks-18094490/',
+    linkedin: 'linkedin.com/in/estian-diedericks',
     location: 'Cape Town, South Africa',
   },
   summary: `I am a software developer with a passion for
