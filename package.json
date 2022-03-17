@@ -20,7 +20,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "npx babel-node scripts/create-current-person.js %npm_config_person% && react-scripts start",
+    "start:win": "npx babel-node scripts/create-current-person.js %npm_config_person% && react-scripts start",
+    "start": "npx babel-node scripts/create-current-person.js $npm_config_person && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
