@@ -9,19 +9,18 @@ const Estian: Person = {
     linkedin: 'linkedin.com/in/estian-diedericks',
     location: 'Cape Town, South Africa',
   },
-  summary: `I am a software developer with a passion for
-      learning new technologies and an interest in how the web
-      works. I enjoy working on the front end and
-      back end of a project and love making creative ideas come to
-      life. I am always looking for new
+  summary: <>I am a software developer who loves making creative ideas come to life.
+  I enjoy working on both the front and
+  back-end of a project.  I have a passion to learn new technologies and I have a great
+    interest to understand exactly how the web functions. I am always looking for new
       opportunities to increase my knowledge on a subject and
-      strive for self improvement.
-    `,
+      strive for self-improvement.
+      </>,
   workExperience: [
     {
       title: 'Software Developer',
       company: 'Bluebird Development',
-      bulletPoints: [<>In the process of developing a Rugby ratings application.</>],
+      bulletPoints: [<>In the process of developing a Rugby ratings application, where I worked on the API, Web App, Database, and Cloud Deployment.</>],
       dates: 'Nov 2021 - present',
     },
     {

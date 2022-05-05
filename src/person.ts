@@ -10,7 +10,7 @@ export type Person = {
     location: string;
   };
   leftWidth?: number; // width % of left column
-  summary: string;
+  summary: React.ReactNode;
   workExperience: {
     title: string;
     company: string;
