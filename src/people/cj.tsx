@@ -1,9 +1,8 @@
 import { Person } from '../person';
-import React from 'react';
 
 const cj: Person = {
   name: 'C.J. Visser',
-  titles: ['Software Developer', 'Manager', 'Entrepreneur'],
+  titles: ['Senior Software Engineer', 'Manager', 'Entrepreneur'],
   info: {
     phone: '+995 595 086 017',
     email: 'cj@bluebird.dev',
@@ -15,12 +14,12 @@ const cj: Person = {
     `,
   workExperience: [
     {
-      title: 'Founder, Developer',
-      company: 'Rektech',
+      title: 'Founder, Software Engineer',
+      company: 'Bluebird Development',
       bulletPoints: [
         <>
-          Founded a company of 9 remote developers with the mission of becoming the most sought-after tech company to
-          work for.
+          Founded a company of remote software engineers with the mission of becoming South Africa's most sought-after tech company to
+          work for. <a href="https://bluebird.dev">(bluebird.dev)</a>
         </>,
         <>
           Built and maintained a logistics system for <a href="https://www.raubex.co.za">Raubex</a> – South Africa's
@@ -40,7 +39,7 @@ const cj: Person = {
       dates: 'Aug 2018 - present',
     },
     {
-      title: 'Senior Freelance Developer, Consultant',
+      title: 'Senior Freelance Engineer, Consultant',
       company: 'Toptal',
       bulletPoints: [
         `Consults on the UI and data analytics for PepsiCo's internal Sales & Automation tools.`,
@@ -57,7 +56,7 @@ const cj: Person = {
       dates: 'Oct 2017 – Sep 2018',
     },
     {
-      title: 'Senior Developer',
+      title: 'Senior Full Stack Developer',
       company: 'BlazingChilli',
       bulletPoints: [
         'Introduced, developed, and maintained a centralized web console to holistically manage the company’s internal systems, which is used by the support personnel, the developers, and the managers.',

@@ -1,23 +1,24 @@
 import { Person } from '../person';
-import React from 'react';
 
 const nick: Person = {
   name: 'Nick Zaverdinos',
-  titles: ['Fullstack Developer'],
+  titles: ['Senior Software Engineer'],
   info: {
     phone: '+372 59 33 0078',
     email: 'nick@bluebird.dev',
     linkedin: 'linkedin.com/in/warpy',
     location: 'Cape Town, South Africa',
   },
-  summary: `Adaptive, driven and agile full stack developer. From providing high quality, across the board solutions, to highly customised and catered products, I have worked within banking, insurance, cryptocurrencies and sustainability industries.
+  summary: `Adaptive, driven and agile full stack software engineer. From providing high quality, across the board solutions, to highly customised and catered products, I have worked within banking, insurance, cryptocurrencies and sustainability industries.
     `,
+    leftWidth: 43,
   workExperience: [
     {
-      title: 'Co-Founder, Developer',
-      company: 'Rektech',
+      title: 'Co-Founder, Software Engineer',
+      company: 'Bluebird Development',
       bulletPoints: [
-        <>Co-founded a small company of remote developers</>,
+        <>Instrumental in transitioning <a href="http://coindirect.com/">coindirect.com</a>{' '}
+        (a leading crypto payments and banking provider) to <a href="http://bvnk.com/">bvnk.com</a>.</>,
         <>
           Built a privacy focused contact-tracing application endorsed by the CSIR - a South African government backed
           medical research institution to help the detection and ultimately reduce the spread of COVID-19.&nbsp;
@@ -32,7 +33,7 @@ const nick: Person = {
           dynamic quiz engine. <a href="https://aurorasustainability.com">(aurorasustainability.com)</a>
         </>,
       ],
-      dates: 'Jan 2019 - present',
+      dates: 'Aug 2018 - present',
     },
     {
       title: 'Full Stack Developer',
@@ -102,7 +103,6 @@ const nick: Person = {
     "Completed Remote Year's work and travel program in Europe.",
     'Hosted an improv experience in Spain.',
     'Digital nomad.',
-    'Sunset chaser.',
   ],
 };
 

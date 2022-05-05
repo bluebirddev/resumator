@@ -1,30 +1,29 @@
 import { Person } from "../person";
-import React from 'react';
 
 const rikus: Person = {
     name: 'Rikus Louw',
-    titles: ['Fullstack Developer'],
+    titles: ['Senior Software Engineer'],
+    leftWidth: 40,
     info: {
         phone: '+27 84 824 8384',
         email: 'rikus@bluebird.dev',
         linkedin: 'linkedin.com/in/rikuswlouw',
         location: 'Cape Town, South Africa',
     },
-    summary: `I'm a friendly, enthusiastic and motivated fullstack developer with more than several years of experience. I have a huge passion for software engineering and have worked on many different projects from small startups to enterprise level applications in the worlds of finance, health and social media.`,
+    summary: `I'm a friendly, enthusiastic and motivated full stack software engineer with more than several years of experience. I have a huge passion for software engineering and have worked on many different projects from small startups to enterprise level applications in the worlds of finance, health and social media.`,
     workExperience: [
         {
-            title: 'Co-Founder, Developer',
+            title: 'Co-Founder, Software Engineer',
             company: 'Bluebird Development',
             bulletPoints: [
-                <>Co-founded a small company of remote developers <a href="https://bluebird.dev">(bluebird.dev)</a></>,
-                <>Developed a modern material management system for Raubex – South Africa's biggest construction company.</>,
+                <>Developed a modern material management system for Raubex – South Africa's biggest construction company. <a href="https://www.raubex.co.za">(raubex.co.za)</a></>,
                 <>Integrated three leading banks' direct debit solutions into an enterprise system <a href="https://bank.tech">(bank.tech)</a>.</>,
                 <>Built a Magic: The Gathering deck building application called MTG Spellbook for Android.</>,
                 <>Modernization and development on a web project for a leading cryptocurrency company <a href="https://coindirect.com">(coindirect.com)</a>.</>,
                 <>Developed a Covid tracking app (iOS and Android) for use in multiple European countries <a href="https://delta.io">(delta.io)</a>.</>,
                 <>Architected and build a debit order system with integrations to two leading South African banks <a href="https://revio.com">(revio.com)</a>.</>
             ],
-            dates: 'Jul 2019 - present'
+            dates: 'Aug 2018 - present'
         },
         {
             title: 'Lead Mobile Developer',

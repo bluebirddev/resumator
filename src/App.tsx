@@ -19,10 +19,10 @@ function App() {
 
         <div className="info">
           <div>
-            <span className="emoji">☎</span> {person.info.phone}
+            <span className="emoji">☎</span> <a href={`tel:${person.info.phone}`}>{person.info.phone}</a>
           </div>
           <div>
-            <span className="emoji">✉</span> {person.info.email}
+            <span className="emoji">✉</span> <a href={`mailto:${person.info.email}`}>{person.info.email}</a>
           </div>
           <div>
             <span className="emoji">🌐</span> <a href={`https://${person.info.linkedin}`}>{person.info.linkedin}</a>

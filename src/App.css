@@ -71,7 +71,6 @@ h3 {
   margin-top: 12px;
 }
 .split > div:first-child {
-  width: 45%;
   padding-right: 15px;
 }
 .split > div:nth-child(2) {
