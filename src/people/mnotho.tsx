@@ -3,9 +3,9 @@ import React from 'react';
 
 const mnotho: Person = {
    name: 'Mnotho Gumede',
-   titles: ['Software Developer', 'Manager', 'Entrepreneur'],
+   titles: ['Software Developer'],
    info: {
-      phone: '+27 73 978 7541',
+      phone: '',
       email: 'mnotho@bluebird.dev',
       linkedin: 'linkedin.com/in/mnotho-gumede-241b94b6/',
       location: 'Gauteng, South Africa',
