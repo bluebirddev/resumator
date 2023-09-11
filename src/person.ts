@@ -1,4 +1,16 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
+
+export type Title = {
+  title: string;
+  dates: string;
+  bulletPoints?: React.ReactNode[];
+}
+
+export type WE = {
+  company?: string;
+} & (Title | {
+  titles: Title[];
+});
 
 export type Person = {
   name: string;
@@ -7,18 +19,13 @@ export type Person = {
     phone: string;
     email: string;
     linkedin: string;
-    location: string;
+    location?: string;
   };
   leftWidth?: number; // width % of left column
-  summary: string;
-  workExperience: {
-    title: string;
-    company: string;
-    dates: string;
-    bulletPoints?: React.ReactNode[];
-  }[];
+  summary: ReactNode;
+  workExperience: WE[];
   skills: string[];
-  technologies: string[];
+  technologies?: string[];
   education: {
     name: string;
     degrees: {

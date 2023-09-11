@@ -28,18 +28,27 @@ body {
 .info {
   display: flex;
   margin-top: 14px;
+  margin-bottom: 6px;
+  max-width: 500px;
+  white-space: nowrap;
 }
 .info > div {
-  margin-right: 16px;
+  margin: 4px 16px 4px 0;
 }
 
 .group {
   display: flex;
   flex-wrap: wrap;
+  line-height: 15px;
 }
 .group > div {
-  width: 50%;
   margin-bottom: 12px;
+}
+.group .odd {
+  width: 43%;
+}
+.group .even {
+  width: 57%;
 }
 
 .content {
@@ -58,7 +67,7 @@ h2 {
   font-weight: 300;
   font-size: 26px;
   margin-top: 16px;
-  color: rgb(26, 115, 232);
+  color: #b86819;
 }
 h3 {
   text-transform: uppercase;
@@ -68,15 +77,14 @@ h3 {
 
 .split {
   display: flex;
-  margin-top: 12px;
 }
 .split > div:first-child {
-  padding-right: 15px;
+  padding-right: 17px;
 }
 .split > div:nth-child(2) {
-  padding-left: 15px;
+  padding-left: 17px;
   flex: 1;
-  border-left: 1px solid #f6f6f6;
+  border-left: 1px solid #b8681909;
 }
 
 .align {
@@ -90,7 +98,7 @@ h3 {
 }
 
 .dot {
-  background: rgb(26, 115, 232);
+  background: #b86819;
   min-height: 4px;
   min-width: 4px;
   margin-top: 5px;
@@ -98,33 +106,42 @@ h3 {
 }
 
 h4 {
-  font-weight: bold;
   margin-top: 10px;
-  margin-bottom: 2px;
 }
 
 ul {
-  margin: 8px 0 20px;
+  margin: 4px 0 12px;
 }
 li {
   display: flex;
   align-items: flex-start;
-  margin: 4px 0;
+  margin: 5px 0;
+  text-align: justify;
+  line-height: 1.05;
 }
-
+.summary {
+  text-align: justify;
+}
 .highlight {
-  color: rgb(26, 115, 232);
+  color: #b86819;
+  margin-bottom: 4px;
 }
 
+.education.content {
+  margin-top: -10px;
+}
 .education h4 {
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
 .education > div {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+}
+.education .dates {
+  margin-left: 20px;
 }
 
 .pdf {
-  padding: 50px 36px;
+  padding: 40px 36px;
   box-sizing: border-box;
   width: 800px;
   height: 1130px;
@@ -137,11 +154,38 @@ li {
   margin: 4px 0 10px;
 }
 a {
-  color: rgb(26, 115, 232);
+  color: #b86819;
   font-style: italic;
   text-decoration: none;
 }
 .info a {
   color: initial;
   font-style: initial;
+}
+.job-title {
+  font-weight: bold;
+}
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #b8681909;
+}
+.we {
+  margin: 8px 0;
+}
+.image {
+  background-position: center center;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+.edu-name {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
 }
