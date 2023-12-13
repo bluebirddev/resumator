@@ -3,9 +3,10 @@ import { Person } from '../person';
 const cj: Person = {
   name: 'C.J. Visser',
   titles: ['Senior Software Engineer', 'Manager', 'Entrepreneur'],
+  leftWidth: 42,
   info: {
     phone: '+995 595 086 017',
-    email: 'cj@bluebird.dev',
+    email: 'cj@bluebird.tech',
     linkedin: 'linkedin.com/in/cjvisser',
     location: 'Cape Town, South Africa',
   },
@@ -15,11 +16,15 @@ const cj: Person = {
   workExperience: [
     {
       title: 'Founder, Software Engineer',
-      company: 'Bluebird Development',
+      company: 'Bluebird Technologies',
       bulletPoints: [
         <>
-          Founded a company of remote software engineers with the mission of becoming South Africa's most sought-after tech company to
-          work for. <a href="https://bluebird.dev">(bluebird.dev)</a>
+          Founded a company of remote software engineers with the mission of becoming South Africa's most sought-after
+          tech company to work for. <a href="https://bluebird.tech">(bluebird.tech)</a>
+        </>,
+        <>
+          Created an AI (GPT-based) financial advisor that integrates with{' '}
+          <a href="https://www.sanlam.co.za">Sanlam's</a> financial products.
         </>,
         <>
           Built and maintained a logistics system for <a href="https://www.raubex.co.za">Raubex</a> – South Africa's
@@ -27,13 +32,17 @@ const cj: Person = {
         </>,
         <>
           Led the web development teams of multi succesful companies and products: <a href="https://revix.com">Revix</a>
-          , <a href="https://www.doctorly.de/">Doctorly</a>, <a href="https://www.coindirect.com/">Coindirect</a>,{' '}
-          <a href="https://www.evuna.co.za/">eVuna</a>,{' '}
-          <a href="https://www.aurorasustainability.com/">Aurora Sustainability</a>
+          , <a href="https://www.doctorly.de/">Doctorly</a>, <a href="https://www.bvnk.com/">BVNK</a>,{' '}
+          <a href="https://www.tweakcarbon.com/">Tweak</a>
         </>,
         <>
           Developed banking systems (which processes 3m+ monthly financial mandates for insurance companies) and
           websites for the <a href="https://bank.tech">Fintec Group</a> and its subsidiaries.
+        </>,
+        <>
+          CTO and co-founder of <a href="https://www.luulo.io/">Luulo</a>, developing bespoke WhatsApp solutions,
+          powered by AI. Some of the clients being <a href="https://www.spar.co.za">Spar</a> and{' '}
+          <a href="https://www.herotel.com/">Herotel</a>.
         </>,
       ],
       dates: 'Aug 2018 - present',
@@ -78,7 +87,7 @@ const cj: Person = {
   skills: [
     'Engineer Management',
     'Web Development',
-    'Functional Programming',
+    'AI',
     'Database Design',
     'System Architecture',
     'Cloud Software',
